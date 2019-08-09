@@ -73,7 +73,7 @@ p {
 
 header {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 20px 0;
@@ -99,8 +99,6 @@ header figure {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px 0;
-   
-
     width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;
@@ -109,11 +107,6 @@ header figure {
 .top-content {
     border-bottom: 1px dashed black;
 }
-
-/* .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-} */
 
 .middle-content h2 {
     padding: 0 2%;
@@ -124,30 +117,19 @@ header figure {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* margin: 0, 10px; */
 }
 
 .middle-content .boxes article {
     width: 47%;
-    /* height: 400px; */
-    /* margin: 20px 2.5%; */
-    /* background-color: aqua; */
     margin: 15px 0;
-    /* color: white; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    /* text-align: left */
-    /* align-content: spa; */
-    /* margin-bottom: 20px; */
     border-bottom: 1px dashed black;
 }
 
  .fig1 {
     width: 100%;
-    /* background-color: blue; */
-    /* justify-content: left; */
     margin: 10px 0;
 }
 
@@ -158,38 +140,17 @@ header figure {
 }
  
 .middle-content .boxes article h2 {
-    /* background-color: brown; */
-    /* margin: 10px; */
     padding: 0;
-    /* text-align: left */
 }
 
 .middle-content .boxes article p {
-    /* background-color: brown; */
     margin: 10px 0;
-    /* padding: 0; */
-    /* text-align: left */
 }
 
 .middle-content .boxes article button {
-    /* width: 200px; */
-	height: 35px;
+    height: 35px;
 	margin-bottom: 10px;
-	/* font-size: 20px; */
 }
-/* .bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-} */
 
 footer {
     width: 100%;
